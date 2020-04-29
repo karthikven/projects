@@ -1,0 +1,11 @@
+Review things from previous exercises that I don't understand and things that I want to keep in mind
+
+---> three ways to print variable values and text in the same print statement
+
+1. print(f"text1 {var1} text2")
+2. print("text1", var1, "text2") this includes a space after each argument
+3. print("text1" + var1 + "text2") this method doesn't include a space
+
+---> print(a + b + c, end = ' ')
+---> use .format to fill in placeholders
+---> files: step 1 open the file and store it in a variable. text = open(filename, 'w'). Step 2 read it temp = text.read() Step 3 write into it with text.write("stuff to write") Step 4 close the file with text.close()
